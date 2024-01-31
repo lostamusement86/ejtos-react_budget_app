@@ -19,8 +19,8 @@ const Currency = () => {
                     })
                 }
             >
-                <option className="option" value="£">£ Pound</option>
                 <option className="option" value="$">$ Dollar</option>
+                <option className="option" value="£" selected="selected">£ Pound</option>
                 <option className="option" value="€">€ Euro</option>
                 <option className="option" value="₹">₹ Ruppee</option>
             </select>

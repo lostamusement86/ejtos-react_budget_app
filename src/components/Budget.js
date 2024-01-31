@@ -10,7 +10,7 @@ const Budget = () => {
 
     const handleBudgetChange = (event) => {
         if (event.target.value > maxBudget){
-            alert("The budget cannot exceed " + maxBudget.toString() + "!");
+            alert("The budget cannot exceed " + currency + maxBudget + "!");
         }else if (event.target.value < (budget - remaining)) {
             alert("You cannot reduce budget to less than spending");
         }else{
