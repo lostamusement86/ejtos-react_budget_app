@@ -1,0 +1,15 @@
+.currency {
+    background-color: #93e499;
+    color: #ffffff;
+    border: 0;
+}
+
+.option {
+    color: #000;
+    background-color: #93e499;
+}
+
+.option:hover, .option:focus, .option:active
+{
+    background-color: #fff;
+}
